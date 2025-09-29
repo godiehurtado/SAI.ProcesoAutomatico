@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="deddf27e-3249-4ca3-8bae-e278c65a40c4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dc2tvdetl1:3078/PackagesExecutionService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PackagesExecutionService.xsd" MetadataType="Schema" ID="4d81c90d-9868-4d22-85cc-c4ce89bb0b05" SourceId="1" SourceUrl="http://dc2tvdetl1:3078/PackagesExecutionService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PackagesExecutionService1.xsd" MetadataType="Schema" ID="3f830e35-56da-4eb9-9b1e-2c6c12067c2f" SourceId="1" SourceUrl="http://dc2tvdetl1:3078/PackagesExecutionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PackagesExecutionService2.xsd" MetadataType="Schema" ID="c9cb38c8-f51f-4882-88c4-97a2d3d74bd9" SourceId="1" SourceUrl="http://dc2tvdetl1:3078/PackagesExecutionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PackagesExecutionService3.xsd" MetadataType="Schema" ID="c482702b-db05-4bcc-b213-4d4cea54e66d" SourceId="1" SourceUrl="http://dc2tvdetl1:3078/PackagesExecutionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="PackagesExecutionService.wsdl" MetadataType="Wsdl" ID="a60ef22e-06b3-47be-b282-ae5ff0f41024" SourceId="1" SourceUrl="http://dc2tvdetl1:3078/PackagesExecutionService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

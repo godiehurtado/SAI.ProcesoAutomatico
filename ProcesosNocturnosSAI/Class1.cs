@@ -19,8 +19,8 @@ using System.Threading;
 using System.Timers;
 using Microsoft.VisualBasic;
 using ProcesosNocturnosSAI.Framework;
+using ProcesosNocturnosSAI.PackagesExecutionService;
 using Sybase.Data.AseClient;
-using WcfPackagesExecution;
 
 internal class Class1
 {
@@ -849,7 +849,6 @@ internal class Class1
             if (num3 == 2)
             {
                 eventLog1.WriteEntry("Ejecutanto Extraccion ");
-                new WsIntegradorSoapClient();
                 if (text17.Equals("yyyymmddyyyymmdd"))
                 {
                     text20 = string.Concat(dateTime.Year * 10000 + dateTime.Month * 100 + dateTime.Day, dateTime2.Year * 10000 + dateTime2.Month * 100 + dateTime2.Day);
